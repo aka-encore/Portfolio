@@ -64,7 +64,7 @@ footer {
     background-color:  #111;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 h1{
@@ -73,12 +73,16 @@ h1{
     color: wheat;
     text-align: center;
 }
-  img{
-                border: 4px solid black;
-                float: right;
-                width: 194px;
-                height: 229px;
-            }
+  img{      
+    float: right;
+    width: 194px;
+    height: 229px;
+    
+    border: 4px solid black;
+}
+#im{
+    padding-right: 644px;
+}
 
 
 
@@ -108,12 +112,21 @@ h1{
         font-size: 18px;
 
     }
+    header{
+        padding: 10px;
+    }
     img{
-                border: 4px solid black;
-                float: right;
-                width: 194px;
-                height: 225px;
-            }
+        float: right;
+        width: 194px;
+        height: 225px;
+        padding: 95px;
+        border: 0px;
+    }
+    #im{
+        padding-right: 0px;
+        
+    }
+
      
     
    
