@@ -102,6 +102,12 @@ h1{
         font-size: 18px;
 
     }
+    img{
+                border: 4px solid black;
+                float: right;
+                width: 194px;
+                height: 225px;
+            }
      
     
    
