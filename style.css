@@ -11,24 +11,31 @@ header {
     color: rgb(0, 0, 0);
     padding: 20px;
 }
+ul{
+    margin-left: 30px;
+}
+#h14,#h13{
+    margin: 25px;
 
+}
 
 
 nav a {
     color: rgb(0, 0, 0);
-    margin: 0 10px;
+    margin:  10px;
     text-decoration: none;
     font-weight: bold;
 }
 
 section {
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 6px;
+    background-color: rgb(192, 248, 183);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    text-decoration: none;
 }
 h4{
-    border-bottom: 4px solid black;
+    
     text-align: center;
     color: wheat;
     padding-bottom: 5px;
@@ -36,32 +43,35 @@ h4{
 
 h2 {
     color: #e63946;
+    
 }
 
 .project {
     border-left: 4px solid #1e88e5;
     padding-left: 10px;
     margin-bottom: 15px;
+    margin: 30px;
+    
 }
 
 footer {
     background-color:  #111;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 h1{
-    font-weight: 900;
+    font-weight: 1000;
     
-    color: #f9f1f2;
+    color: wheat;
     text-align: center;
 }
   img{
                 border: 4px solid black;
                 float: right;
-                width: 154px;
-                height: 231px;
+                width: 194px;
+                height: 229px;
             }
 
 
