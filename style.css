@@ -69,8 +69,9 @@ header {
     box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
 
+/* PROFILE IMAGE */
 .profile-pic img {
-    width: 185px;/*increased slightly */
+    width: 155px;
     aspect-ratio: 960 / 1031;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
@@ -257,7 +258,6 @@ footer {
     }
 
     .profile-pic img {
-    width: 150px;
-}
-
+        width: 130px;
+    }
 }
