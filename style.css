@@ -34,7 +34,7 @@ header {
 
 /* HERO */
 .hero-title {
-    font-size: 42px;
+    font-size: 48px;
     font-weight: 500;
     margin: 0;
 }
@@ -65,13 +65,13 @@ header {
     padding: 6px 14px;
     background: #fff;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 17px;
     box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
 
 /* PROFILE IMAGE */
 .profile-pic img {
-    width: 155px;
+    width: 188px;
     aspect-ratio: 960 / 1031;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
@@ -244,7 +244,7 @@ footer {
 /* MOBILE */
 @media (max-width: 600px) {
     .hero-title {
-        font-size: 28px;
+        font-size: 35px;
     }
 
     nav ul {
@@ -259,6 +259,6 @@ footer {
     }
 
     .profile-pic img {
-        width: 130px;
+        width: 150px;
     }
 }
