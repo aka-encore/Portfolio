@@ -250,6 +250,7 @@ footer {
     nav ul {
         flex-direction: column;
         gap: 12px;
+        align-items: center;
     }
 
     section {
