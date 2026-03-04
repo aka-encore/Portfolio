@@ -611,7 +611,7 @@ h2::before {
 }
 
 /* ═══════════════════════════════════════════
-   CONTACT
+   CONTACT - FIXED VERSION
 ═══════════════════════════════════════════ */
 .contact-vertical {
     display: flex;
@@ -650,21 +650,51 @@ h2::before {
     transition: var(--transition-base);
 }
 
+/* Fixed: Icons now visible on hover */
 .contact-vertical a:hover img {
     transform: scale(1.1);
-    background: var(--accent);
-    filter: brightness(0) invert(1);
 }
 
-/* Contact Icon Colors */
-.contact-vertical a:nth-child(1) img { background: #e8f5f0; }
-.contact-vertical a:nth-child(2) img { background: #f0e8f5; }
-.contact-vertical a:nth-child(3) img { background: #e8f0f5; }
+/* Individual icon colors on hover - NO white filter */
+.contact-vertical a:nth-child(1) img { 
+    background: #e8f5f0; 
+}
+.contact-vertical a:nth-child(1):hover img { 
+    background: var(--accent-mint);
+    box-shadow: 0 4px 15px rgba(78, 204, 163, 0.3);
+}
 
-.contact-vertical a:nth-child(1):hover img { background: var(--accent-mint); }
-.contact-vertical a:nth-child(2):hover img { background: var(--accent-lavender); }
-.contact-vertical a:nth-child(3):hover img { background: var(--accent-sky); }
+.contact-vertical a:nth-child(2) img { 
+    background: #f0e8f5; 
+}
+.contact-vertical a:nth-child(2):hover img { 
+    background: var(--accent-lavender);
+    box-shadow: 0 4px 15px rgba(184, 169, 201, 0.3);
+}
 
+.contact-vertical a:nth-child(3) img { 
+    background: #e8f0f5; 
+}
+.contact-vertical a:nth-child(3):hover img { 
+    background: var(--accent-sky);
+    box-shadow: 0 4px 15px rgba(137, 196, 225, 0.3);
+}
+
+.contact-vertical a:nth-child(4) img { 
+    background: #fef0e8; 
+}
+.contact-vertical a:nth-child(4):hover img { 
+    background: var(--accent-peach);
+    box-shadow: 0 4px 15px rgba(254, 200, 154, 0.3);
+}
+
+.contact-vertical a:nth-child(5) img { 
+    background: #fde8e8; 
+}
+.contact-vertical a:nth-child(5):hover img { 
+    background: var(--accent-coral);
+    box-shadow: 0 4px 15px rgba(248, 165, 165, 0.3);
+}
 /* ═══════════════════════════════════════════
    FOOTER
 ═══════════════════════════════════════════ */
